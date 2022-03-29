@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Dibuja!</h1>
+    <div class="container__btn">
+        <button class="reset" id="resetear">Borrar dibujo</button>
+    </div>
+    <div class="editor">
+        <canvas id="canvas" class="canvas" width="500px" height="500px"></canvas>
+        <div>
+            <input type="color" id="color">
+            <input type="range" id="lw" min="1" value="1" max="10">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
 </body>
 </html>
